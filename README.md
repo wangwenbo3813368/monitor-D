@@ -1,23 +1,12 @@
-# cmsv9
+# 项目安装
 
-> cmsv9-cli
+------
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-test123
+> * 第一步：npm 映射淘宝仓库 
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+> * 第二步：定位到项目根目录下，清空npm缓存
+npm cache clean -f
+> * 第三步：安装依赖包
+cnpm install
+> * 第四步：启动项目
+cnpm run dev
