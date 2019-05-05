@@ -1,0 +1,390 @@
+//---------------------------------------------------------------------------------------
+//通用
+$font-color-normal-black: #C0C4CC !important;               //普通字体颜色
+$font-color-special-black: #F2F6FC !important;              //特殊字体颜色
+$font-color-disabled-black: #606266 !important;              //禁用字体颜色
+$background-color-level01-black: #3C3F41 !important;        //一级背景颜色
+$background-color-level02-black: #313335 !important;        //二级背景颜色
+$background-color-level03-black: #2B2B2B !important;        //三级背景颜色
+$form-label-background-normal-black: #3C3F41 !important;      //普通form表单label背景色     
+$form-label-background-special-black: black !important;     //特殊form表单label背景色     
+$form-content-background-normal-black: #313335 !important;    //普通form表单内容背景色
+$form-content-background-special-black: black !important;   //特殊form表单内容背景色         
+$table-header-background-normal-black: #3C3F41 !important;    //普通table头背景色    
+$table-header-background-special-black: black !important;   //特殊table头背景色  
+$table-body-background-normal-black: #313335 !important;      //普通table体背景色    
+$table-body-background-special-black: black !important;      //特殊table体背景色  
+$table-body-background-hover-black: #2B2B2B !important;      //hover时table体背景色   
+
+
+//boder shadow相关
+$border-normal-black:1px solid #606266 !important;
+$border-special-black:1px solid #606266 !important;
+
+$border-top-black:1px solid #606266  !important;
+$border-right-black:1px solid #606266  !important;
+$border-bottom-black:1px solid #606266  !important;
+$border-left-black:1px solid #606266  !important;
+
+$border-bottom-color-black:#3C3F41  !important;
+$border-top-color-black:#3C3F41  !important;
+
+$box-shadow-normal-black: 0 0 3px #606266  !important;
+$box-shadow-special-black: 10px 1px 15px rgba(0, 0, 0, 0.17)  !important;
+
+//tab-li相关
+$tab-li-background-color-black:#3C3F41  !important;
+$tab-li-background-color-active-black:#2B2B2B  !important;
+$tab-li-font-color-black:#C0C4CC  !important;
+$tab-li-font-color-active-black:#409EFF  !important;
+
+//el-table 相关
+$table-header-background-color-black:#3C3F41  !important;
+$table-body-background-color-black:#303133  !important;
+$table-body-background-color-hover-black:#2b2b2b  !important;
+$table-header-font-color-black:#C0C4CC  !important;
+$table-body-font-color-black:#C0C4CC  !important;
+
+//el-select相关
+$select-background-color-hover-black:#606266  !important;
+
+//el-page相关
+$page-background-color-black:#3C3F41  !important;
+
+
+//输入框placeholder颜色
+$placeholder-font-color-black:#606266 !important; 
+
+
+//功能页面
+$menu-font-color-black: #7F99AC !important;
+
+$menu-font-color-white: #3C3F41 !important; 
+
+
+//---------------------------------------------------------------------------------------
+$font-color-normal-white: #2B2B2B !important;               //普通字体颜色
+$font-color-special-white: #313335 !important;              //特殊字体颜色
+$font-color-disabled-white: #C0C4CC !important;              //禁用字体颜色
+$background-color-level01-white: #ffffff !important;        //一级背景颜色
+$background-color-level02-white: #F2F6FC !important;        //二级背景颜色
+$background-color-level03-white: #EBEEF5 !important;        //三级背景颜色
+$form-label-background-normal-white: #3C3F41 !important;      //普通form表单label背景色     
+$form-label-background-special-white: white !important;     //特殊form表单label背景色     
+$form-content-background-normal-white: #313335 !important;    //普通form表单内容背景色
+$form-content-background-special-white: white !important;   //特殊form表单内容背景色         
+$table-header-background-normal-white: #3C3F41 !important;    //普通table头背景色    
+$table-header-background-special-white: white !important;   //特殊table头背景色  
+$table-body-background-normal-white: #313335 !important;      //普通table体背景色    
+$table-body-background-special-white: white !important;      //特殊table体背景色  
+$table-body-background-hover-white: #2B2B2B !important;      //hover时table体背景色    
+
+$border-normal-white:1px solid #909399  !important;
+$border-special-white:1px solid #909399  !important;
+
+$border-top-white:1px solid #909399  !important;
+$border-right-white:1px solid #909399  !important;
+$border-bottom-white:1px solid #909399  !important;
+$border-left-white:1px solid #909399  !important;
+
+$border-bottom-color-white:#ffffff  !important;
+$border-top-color-white:#ffffff  !important;
+
+$box-shadow-normal-white: 0 0 3px #909399  !important;
+$box-shadow-special-white: 10px 1px 15px rgba(0, 0, 0, 0.17)  !important;
+
+//tab-li相关
+$tab-li-background-color-white:#E4E7ED  !important;
+$tab-li-background-color-active-white:#C0C4CC  !important;
+$tab-li-font-color-white:#2B2B2B  !important;
+$tab-li-font-color-active-white:#409EFF  !important;
+
+//el-table 相关
+$table-header-background-color-white:#F2F6FC  !important;
+$table-body-background-color-white:#ffffff  !important;
+$table-body-background-color-hover-white:#E4E7ED  !important;
+$table-header-font-color-white:#2B2B2B  !important;
+$table-body-font-color-white:#2B2B2B  !important;
+
+//el-select相关
+$select-background-color-hover-white:#EBEEF5  !important;
+
+//el-page相关
+$page-background-color-white:#DCDFE6  !important;
+
+//输入框placeholder颜色
+$placeholder-font-color-white:#C0C4CC  !important; 
+
+
+@mixin font_normal_color($color){
+    color:$color;
+    [data-theme="black"] & {
+      color:$font-color-normal-black;    
+    }
+    [data-theme="white"] & {
+        color:$font-color-normal-white;    
+      }
+}
+@mixin font_special_color($color){
+    color:$color;
+    [data-theme="black"] & {
+      color:$font-color-special-black;    
+    }
+    [data-theme="white"] & {
+        color:$font-color-special-white;    
+      }
+}
+@mixin font_disabled_color($color){
+    color:$color;
+    [data-theme="black"] & {
+      color:$font-color-disabled-black;    
+    }
+    [data-theme="white"] & {
+        color:$font-color-disabled-white;    
+      }
+}
+
+@mixin background_level01_color($color){
+    background-color:$color; 
+    [data-theme="black"] & {
+        background-color:$background-color-level01-black;     
+    }
+    [data-theme="white"] & {
+        background-color:$background-color-level01-white;     
+    }
+}
+
+@mixin background_level02_color($color){
+    background-color:$color; 
+    [data-theme="black"] & {
+        background-color:$background-color-level02-black;     
+    }
+    [data-theme="white"] & {
+        background-color:$background-color-level02-white;     
+    }
+}
+
+@mixin background_level03_color($color){
+    background-color:$color; 
+    [data-theme="black"] & {
+        background-color:$background-color-level03-black;     
+    }
+    [data-theme="white"] & {
+        background-color:$background-color-level03-white;     
+    }
+}
+
+@mixin border_normal(){
+    [data-theme="black"] & {
+       border:$border-normal-black;    
+    }
+    [data-theme="white"] & {
+       border:$border-normal-white;    
+    }
+}
+
+@mixin border_special(){
+    [data-theme="black"] & {
+      border:$border-special-black;    
+    }
+    [data-theme="white"] & {
+       border:$border-special-white;    
+    }
+}
+
+@mixin border_top(){
+    [data-theme="black"] & {
+       border-top:$border-top-black;    
+    }
+    [data-theme="white"] & {
+       border-top:$border-top-white;    
+    }
+}
+
+@mixin border_right(){
+    [data-theme="black"] & {
+       border-right:$border-right-black;    
+    }
+    [data-theme="white"] & {
+       border-right:$border-right-white;    
+    }
+}
+
+@mixin border_bottom(){
+    [data-theme="black"] & {
+       border-bottom:$border-bottom-black;    
+    }
+    [data-theme="white"] & {
+       border-bottom:$border-bottom-white;    
+    }
+}
+
+@mixin border_left(){
+    [data-theme="black"] & {
+       border-left:$border-left-black;    
+    }
+    [data-theme="white"] & {
+       border-left:$border-left-white;    
+    }
+}
+
+@mixin border_bottom_color(){
+    [data-theme="black"] & {
+       border-bottom-color:$border-bottom-color-black;    
+    }
+    [data-theme="white"] & {
+       border-bottom-color:$border-bottom-color-white;      
+    }
+}
+
+@mixin border_top_color(){
+    [data-theme="black"] & {
+       border-top-color:$border-top-color-black;    
+    }
+    [data-theme="white"] & {
+       border-top-color:$border-top-color-white;      
+    }
+}
+
+
+@mixin box_shadow_normal(){
+    [data-theme="black"] & {
+        box-shadow:$box-shadow-normal-black;    
+    }
+    [data-theme="white"] & {
+        box-shadow:$box-shadow-normal-white;    
+    }
+}
+@mixin box_shadow_special(){
+    [data-theme="black"] & {
+        box-shadow:$box-shadow-special-black;    
+    }
+    [data-theme="white"] & {
+        box-shadow:$box-shadow-special-white;    
+    }
+}
+
+@mixin tab_li_background_color(){
+    [data-theme="black"] & {
+        background-color:$tab-li-background-color-black;    
+    }
+    [data-theme="white"] & {
+        background-color:$tab-li-background-color-white;   
+    }
+}
+
+@mixin tab_li_background_color_active(){
+    [data-theme="black"] & {
+        background-color:$tab-li-background-color-active-black;    
+    }
+    [data-theme="white"] & {
+        background-color:$tab-li-background-color-active-white;   
+    }
+}
+
+@mixin tab_li_font_color(){
+    [data-theme="black"] & {
+        color:$tab-li-font-color-black;    
+    }
+    [data-theme="white"] & {
+        color:$tab-li-font-color-white;   
+    }
+}
+
+@mixin tab_li_font_color_active(){
+    [data-theme="black"] & {
+        color:$tab-li-font-color-active-black;    
+    }
+    [data-theme="white"] & {
+        color:$tab-li-font-color-active-white;   
+    }
+}
+
+@mixin table_header_background_color(){
+    [data-theme="black"] & {
+        background-color:$table-header-background-color-black;
+    }
+    [data-theme="white"] & {
+        background-color:$table-header-background-color-white;
+    }
+}
+
+@mixin table_body_background_color(){
+    [data-theme="black"] & {
+        background-color:$table-body-background-color-black;
+    }
+    [data-theme="white"] & {
+        background-color:$table-body-background-color-white;
+    }
+}
+
+@mixin table_body_background_hover_color(){
+    [data-theme="black"] & {
+        background-color:$table-body-background-color-hover-black;
+    }
+    [data-theme="white"] & {
+        background-color:$table-body-background-color-hover-white;
+    }
+}
+
+@mixin table_header_font_color(){
+    [data-theme="black"] & {
+        color:$table-header-font-color-black;
+    }
+    [data-theme="white"] & {
+        color:$table-header-font-color-white;
+    }
+}
+
+@mixin table_body_font_color(){
+    [data-theme="black"] & {
+        color:$table-body-font-color-black;
+    }
+    [data-theme="white"] & {
+        color:$table-body-font-color-white;
+    }
+}
+
+
+@mixin select_background_color_hover(){
+    [data-theme="black"] & {
+        background-color: $select-background-color-hover-black;  
+    }
+    [data-theme="white"] & {
+        background-color: $select-background-color-hover-white; 
+    }
+}
+
+@mixin page_background_color(){
+    [data-theme="black"] & {
+        background-color: $page-background-color-black;  
+    }
+    [data-theme="white"] & {
+        background-color: $page-background-color-white;  
+    }
+}
+
+
+
+
+@mixin placeholder_font_color(){
+    [data-theme="black"] & {
+        color: $placeholder-font-color-black;   
+    }
+    [data-theme="white"] & {
+        color: $placeholder-font-color-white; 
+    }
+}
+
+
+
+
+@mixin menu_font_color($color){
+    color:$color; 
+    [data-theme="black"] & {
+        color:$menu-font-color-black;    
+    }
+    [data-theme="white"] & {
+        color:$menu-font-color-white;    
+    }
+}
